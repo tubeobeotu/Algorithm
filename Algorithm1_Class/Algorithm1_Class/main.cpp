@@ -370,26 +370,16 @@ void forfunc5()
         printf("moi ban nhap n <= 100");
     }
 }
-//chua xong
 void labiec4()
 {
-    freopen("labiec4.txt", "r", stdin);
-    int n;
-    scanf("%d", &n);
-    for (int i = 0; i < n; i++) {
-        int number;
-        scanf("%d", &number);
-        if (number % 10 != 0) {
-            printf("%d ", number);
-        }
-        else
-        {
+    while (true) {
+        int i;
+        scanf("%d", &i);
+        printf("%d", i);
+        if (i % 10 == 0) {
             break;
         }
     }
-    
-    
-    
 }
 
 void labiec11()
