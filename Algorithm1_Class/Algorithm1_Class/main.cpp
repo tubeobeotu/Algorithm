@@ -206,22 +206,24 @@ void ifFun19()
     int soDien;
     scanf("%d", &soDien);
     float tienThueBao = 1000;
-    float tongTien;
-    float vuotDinhMuc = soDien - 50;
+    float tongTien, tienVuotMuc1, tienVuotMuc2;
     if (soDien > 50)
     {
         tongTien = 50 * 230;
+        float vuotDinhMuc = soDien - 50;
         if (vuotDinhMuc <= 50)
         {
             tongTien = tongTien + (vuotDinhMuc * 480);
         }
         else if (vuotDinhMuc < 100)
         {
-            tongTien = tongTien + (vuotDinhMuc * 700);
+            tienVuotMuc1 = tongTien + (50 * 480);
+            tongTien = tongTien + tienVuotMuc1 + ((vuotDinhMuc - 50) * 700);
         }
         else if (vuotDinhMuc >= 100)
         {
-            tongTien = tongTien + (vuotDinhMuc * 900);
+            tienVuotMuc2 = tongTien + (50 * 480) + (49 * 700);
+            tongTien = tongTien + tienVuotMuc2 + (vuotDinhMuc - 99 * 900);
         }
     }
     else
@@ -445,19 +447,13 @@ void labiec21()
 }
 void labiec23()
 {
-    int n, tong;
+    int n, tong = 0;
     scanf("%d", &n);
-    if (n <= 10000)
-    {
-        int donvi, chuc, tram, nghin, chucNghin;
-        donvi = n % 10;
-        chuc = (n / 10) % 10;
-        tram = (n / 100) % 10;
-        nghin = (n / 1000) % 10;
-        chucNghin = (n / 10000) % 10;
-        tong = donvi + chuc + tram + nghin + chucNghin;
-        printf("%d", tong);
+    while (n > 0) {
+        tong = tong + n%10;
+        n = n/10;
     }
+    printf("%d", tong);
 }
 void labiec27()
 {
@@ -577,7 +573,7 @@ void labiec15()
     }
 }
 int main(int argc, const char * argv[]) {
-    labiec21();
+    labiec23();
     return 0;
 }
 
