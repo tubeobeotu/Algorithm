@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "c915a29db66b679d0a25982d4df4a8a8"
+build_time: [516349535, 497570000]
+inputs:
+  "/Users/nguyenvantu/Algorithm/BaiTapBuoi3/trunghoc11/trunghoc11/AppDelegate.swift": [516349210, 0]
+  "/Users/nguyenvantu/Algorithm/BaiTapBuoi3/trunghoc11/trunghoc11/ViewController.swift": [516349535, 0]

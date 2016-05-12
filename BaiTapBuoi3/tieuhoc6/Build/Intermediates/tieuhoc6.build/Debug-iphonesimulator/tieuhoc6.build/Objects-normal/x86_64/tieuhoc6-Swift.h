@@ -112,8 +112,14 @@ SWIFT_CLASS("_TtC8tieuhoc611AppDelegate")
 
 SWIFT_CLASS("_TtC8tieuhoc614ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic) NSInteger n;
+@property (nonatomic, copy) NSArray<NSNumber *> * __nonnull s;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull myStrings;
+@property (nonatomic) NSInteger currentCountTest;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (void)input;
+- (NSInteger)doCount:(NSInteger)num;
+- (void)solve;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

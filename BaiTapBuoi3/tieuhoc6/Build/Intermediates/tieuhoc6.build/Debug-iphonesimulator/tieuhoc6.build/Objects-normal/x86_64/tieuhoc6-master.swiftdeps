@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "115e13f639fb4bb78fb5ee0ac4a7e503"
-build_time: [516333331, 283132000]
+options: "0d8245957cf771ce28aacc45c2cc0d10"
+build_time: [516348321, 873755000]
 inputs:
-  "/Users/nguyenvantu/Desktop/BaiTapBuoi3/tieuhoc6/tieuhoc6/ViewController.swift": [516333329, 0]
-  "/Users/nguyenvantu/Desktop/BaiTapBuoi3/tieuhoc6/tieuhoc6/AppDelegate.swift": [516333329, 0]
+  "/Users/nguyenvantu/Algorithm/BaiTapBuoi3/tieuhoc6/tieuhoc6/AppDelegate.swift": [516333329, 0]
+  "/Users/nguyenvantu/Algorithm/BaiTapBuoi3/tieuhoc6/tieuhoc6/ViewController.swift": [516348321, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "1de6f035d8a41fc4243ce3b3ab64dbd9"
+build_time: [516350390, 366810000]
+inputs:
+  "/Users/nguyenvantu/Algorithm/BaiTapBuoi3/capba5/capba5/ViewController.swift": [516350390, 0]
+  "/Users/nguyenvantu/Algorithm/BaiTapBuoi3/capba5/capba5/AppDelegate.swift": [516349600, 0]
