@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "8b113ecfd6ce81d5e53bb4d6c6a30ce7"
+build_time: [516368439, 851869000]
+inputs:
+  "/Users/techmaster/Documents/NguyenVanTu/Buoi4/Buoi4/AppDelegate.swift": [516368436, 0]
+  "/Users/techmaster/Documents/NguyenVanTu/Buoi4/Buoi4/ViewController.swift": [516368436, 0]

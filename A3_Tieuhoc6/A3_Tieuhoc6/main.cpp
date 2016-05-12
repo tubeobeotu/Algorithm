@@ -1,9 +1,5 @@
 #include <iostream>
-#include  <fstream>
-#include  <string.h>
-#include  <stdio.h>
-#include  <stdlib.h>
-#include <vector>
+
 
 using namespace std;
 //int s[111][111];
@@ -60,11 +56,11 @@ void input()
 }
 void solve()
 {
-    int count = 0;
-    for (int i = 0; i < strlen(b); i++) {
-         
-    }
-    return count;
+//    int count = 0;
+//    for (int i = 0; i < strlen(b); i++) {
+//        
+//    }
+//    return count;
 }
 void output()
 {

@@ -1,0 +1,11 @@
+
+trunghoc7 
+check hv int hang int cot
+{
+//check ra ngoai
+for i = hang  i < hang + size
+	for j = cot, j < cot +size
+		if s[][] == 0 return 0
+}
+
+
