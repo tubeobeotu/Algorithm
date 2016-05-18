@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/techmaster/Documents/NguyenVanTu/Algorithm4_class/Bai4_1/Bai4_1/main.cpp
+  /Users/nguyenvantu/Algorithm/Algorithm4_class/Bai4_1/Bai4_1/main.cpp
